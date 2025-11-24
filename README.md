@@ -4,4 +4,4 @@
 
 This project is licensed under the Apache License 2.0 (see `LICENSE`).
 
-If you are interested in using this project in a commercial product or would like bespoke features, support, or different licensing terms, please contact me at: <your-email-here>.
+If you are interested in using this project in a commercial product or would like bespoke features, support, or different licensing terms, please contact me at: real.ibby.2003@gmail.com
