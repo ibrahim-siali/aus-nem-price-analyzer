@@ -16,3 +16,5 @@ venv/
 dist/
 build/
 *.egg-info/
+INSTRUCTIONS.md
+INSTURCTIONS.md
