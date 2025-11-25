@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aus-nem-price-analyzer"
+version = "0.1.0"
+description = "Analyze Australian NEM spot price data with CLI, plots, and a simple battery backtest."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [{ name = "AUS NEM Price Analyzer Contributors" }]
+dependencies = [
+  "click>=8.1",
+  "pandas>=2.1",
+  "numpy>=2.0",
+  "matplotlib>=3.8",
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=9.0"]
+
+[project.scripts]
+aus-nem = "aus_nem_price_analyzer.cli:cli"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,17 @@
+timezone: "Australia/Melbourne"
+columns:
+  timestamp: "SETTLEMENTDATE"
+  region: "REGIONID"
+  price: "RRP"
+  demand: "TOTALDEMAND"
+defaults:
+  region: "VIC1"
+  start: "2021-01-01"
+  end: "2021-12-31"
+  quantile: 0.95
+  threshold: null
+  low_quantile: 0.25
+  high_quantile: 0.75
+  round_trip_efficiency: 0.9
+  plot_kind: "timeseries"
+  output_dir: "plots"
